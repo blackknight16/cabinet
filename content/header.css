@@ -1,0 +1,110 @@
+#menu li {
+	float:left;
+	list-style:none;
+	margin-right:15px;
+	padding: 10px 0;
+}
+#menu li a {
+	text-decoration:none;
+	font-family:'Kreon', serif;
+	font-size:16px;
+	color:#385f2d;
+	text-transform:uppercase;
+}
+#menu li a:hover {
+	color:#cd6a00;
+	-webkit-transition:All 0.5s ease;
+	-moz-transition:All 0.5s ease;
+	-o-transition:All 0.5s ease;
+}
+#menu li a span.ui-icon-carat-1-e {
+    float:right;
+    position:static;
+    margin-top:2px;
+    width:16px;
+    height:16px;  background:url(/cabinet/content/ui-icons_888888_256x240.png) no-repeat -64px -16px;
+}
+#menu li ul {
+	display:block;
+	position:absolute;
+	padding:5px 0px;
+	background:#f0f0f0;
+}
+#menu li ul li {
+	float:none;
+	width:300px;
+	margin-right:0px;
+	padding:5px 10px;
+}
+#menu li ul li a {
+	font-size:14px;
+}
+/* my styles */
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+.cabinet-logo {
+    background-image: url(/cabinet/content/monitoring.png);
+    background-repeat: no-repeat;
+    float: left;
+    height: 110px;
+    width: 240px;
+    line-height: 40px;
+}
+.support-logo {
+    background-image: url(/cabinet/content/support.png);
+    background-repeat: no-repeat;
+    float: left;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.monitor-menulogo {
+    background-image: url(/cabinet/content/monitor.png);
+    background-repeat: no-repeat;
+    float: left;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.copy-menulogo {
+    background-image: url(/cabinet/content/copy.png);
+    background-repeat: no-repeat;
+    float: left;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.folder-menulogo {
+    background-image: url(/cabinet/content/folder.png);
+    background-repeat: no-repeat;
+    float: left;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.edit-menulogo {
+    background-image: url(/cabinet/content/edit.png);
+    background-repeat: no-repeat;
+    float: left;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.add-menulogo {
+    background-image: url(/cabinet/content/add.png);
+    background-repeat: no-repeat;
+    float: left;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+.support-block {
+    margin-right: 0em;
+    margin-left: auto;
+    vertical-align: top;
+}
+.header-row {
+    display: flex;
+}

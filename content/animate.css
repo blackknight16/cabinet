@@ -1,0 +1,265 @@
+.nodisplay{
+    display:none !important;
+}
+button.background{
+    width: 100px;
+    height: 100px;
+}
+.dark{
+    background-color: #092f3f; /*crimson;*/
+    color: #fff;
+}
+.light{
+    background-color: #affaaa; /*#cccccc;*/
+    color: #000;
+}
+.dark th{
+    color: #00aaff;
+}
+.light th{
+    color: #0000ff;
+}
+.dark a{
+    color: #fff;
+}
+.light a{
+    color: #000;
+}
+.phone {
+    max-width: 100px;
+}
+#gmphone input[type="text"], #gmphone button{
+    max-width: 100px;
+}
+.phone #phonenumber{
+    width: inherit;
+}
+.phone-button {
+    background-color: #00aaff;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+.phone-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+#phonelist .tab {
+    display: inline-block;
+}
+.callin {
+    background-image: url(/cabinet/content/callin.png);
+}
+.callout {
+    background-image: url(/cabinet/content/callout.png);
+}
+.reload {
+    background-image: url(/cabinet/content/reload.png);
+}
+.gmphone-col{
+    /*display: inline-block;*/
+}
+.edit{
+    background-image: url(/cabinet/content/edit.jpg);
+}
+.add{
+    background-image: url(/cabinet/content/add.jpg);
+}
+.delete{
+    background-image: url(/cabinet/content/delete.jpg);
+}
+.time{
+    background-image: url(/cabinet/content/time.jpg);
+}
+.strelka{
+    background-image: url(/cabinet/content/strelka2.jpg);
+}
+.submenu-title {
+    font-size: 1.4em;
+}
+.submenu-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.submenu-container{
+    width: inherit;
+}
+.submenu-panel2{
+    display:  table;
+    margin-right: 0em;
+    margin-left: auto;
+}
+.compact-table{
+    font-size: 11px;
+}
+.compact-table th{
+    text-align: left;
+}
+/* Individual */
+.personal-foto{
+float: left;
+height: 100px;
+width: 100px;
+line-height: 40px;
+border-top-left-radius: 60px;
+border-top-right-radius: 60px;
+border-bottom-left-radius: 60px;
+border-bottom-right-radius: 60px;
+background-image: url(/cabinet/content/Ivanova.jpg);
+background-repeat: no-repeat; 
+display: table-cell;
+}
+@media (max-width: 2000px){
+    
+}
+div#individual {
+    display: inline-block;
+    width: 300px;
+}
+.category-info {
+    vertical-align: top;
+}
+.individual .text-data{
+    display: table-cell;
+    width: 160px;
+}
+.text-data input {
+    width: inherit;
+}
+.submenu-time {
+    width: 60px;
+    height: 20px;
+    display: inline-block;
+    font-size: 11px;
+}
+/* </TaskList> */
+.submenu-panel3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #05f; /* #22f;*/
+}
+.bottom-tab{
+    display: table-cell;
+}
+.category-info, .category-info td{
+    background-color: #6f303f;
+    color: #ffffff;
+}
+.category-info th {
+    background-color: #6f303f;
+    color: #99f;
+}
+.submenu-panel2 a {
+    color: #99f;
+}
+.ui-tabs.ui-corner-all.ui-widget.ui-widget-content {
+    background-color: #6f303f;
+}
+ul.ui-widget-header {
+ background-color: #6f303f;
+}
+
+.dataTables_paginate a.paginate_button,
+.dataTables_paginate a.paginate_button .previous {
+    background-color: #5af;
+    color: #fff !important;
+}
+.ui-tabs .ui-tabs-nav li  {
+    background-color: #5af;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background-color: #fff;  
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a.ui-tabs-anchor {
+    color: #000;
+}
+
+.category-row1 .category-info{    
+    justify-content: space-between;
+    display: inline-block; 
+    width: 540px;
+    height: 395px;
+}
+.category-row2 .category-info{    
+    justify-content: space-between;
+    display: inline-block; 
+    width: 540px;
+    height: 265px;
+}
+#individual .fio  {
+    width: 100%;
+}
+#individual #datepicker{
+    width: 90%;
+}
+.category-row1 {
+    display: inline-block;
+    vertical-align: top;
+}
+.appearance {
+    display: inline-block;
+    vertical-align: top;
+}
+.personal-info {
+    color: #ffffff;
+    vertical-align: top;
+}
+.category-block {
+    display: inline-block;
+}
+.modal-suppose, #modal_close {
+    color: #000;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+}
+.site-map{
+    display:  inline-block;
+    margin-left: 0;
+    margin-right: auto;
+}
+.benefits{
+    display:  inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-contacts{
+    display:  inline-block;
+    margin-left: auto;
+    margin-right: 0;
+}
+.footer li {
+    list-style: circle;
+}
+.site-contacts li.footer-icons {
+    list-style: none;
+}
+.footer-icons div {
+float: left;
+height: 30px;
+width: 30px;
+line-height: 30px;
+background-repeat: no-repeat;
+display: table-cell;
+}
+.google {
+    background-image: url(/cabinet/content/google.png);
+}
+.vk {
+    background-image: url(/cabinet/content/vk.png);
+}
+.facebook {
+    background-image: url(/cabinet/content/facebook.png);
+}
+.twitter {
+    background-image: url(/cabinet/content/twitter.png);
+}
+.copyright {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}

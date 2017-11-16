@@ -1,0 +1,20 @@
+.err-mes {
+    color: #f00;
+    margin: auto auto;
+    display: table;
+}
+.login {
+    margin: auto auto;
+    display: table;
+}
+.password {
+    margin: auto auto;
+    display: table;
+}
+.user-note {
+    margin: auto auto;
+    display: table;    
+}
+.auth-user-info {
+    list-style: none;
+}
